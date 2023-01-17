@@ -1,0 +1,48 @@
+nav{
+    background-color: aliceblue;
+    height: 100px;
+}
+
+*,
+*::before
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.liNavTop {
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.liNavTop a{
+    color: navy;
+    text-decoration: none;
+}
+
+.ulNavTop {
+    font-style: center;
+    font-size: 30px;
+    overflow: hidden;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+    grid-gap: 10px;
+    margin: 2%;
+
+}
+
+#photo{
+    width: 600px;
+    height: 600px;
+}
+
+footer{
+    background-color:white;
+    display: inline-block;
+    vertical-align: top;
+}
